@@ -1,0 +1,153 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap');
+
+.crypto-container{
+   background-color: #24383f;
+    height: 100vh;
+    width: 100vw;
+    position: absolute;
+    margin-top: 0;
+    margin-left: 0;
+    display: flex;
+    font-family: 'Comfortaa', sans-serif;
+}
+.crypto-container-left{
+    background-image: radial-gradient( circle farthest-corner at 30% 30%,  #040004 1%, #24383f 40% );
+    height: 100vh;
+    width: 55%;
+}
+.crypto-container-left .navbar{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    color: white;
+    font-weight: 700;
+    margin-top: 2%;
+}
+.crypto-container-left .navbar p:nth-child(1){
+    text-decoration: underline;
+    font-weight: 900;
+    cursor: pointer;
+}
+.crypto-container-left h1{
+   color: white;
+   width: 60%;
+   margin-left: 10%;
+   font-size: 44px;
+   letter-spacing: 2px;
+   line-height: 110%;
+   margin-top: 10%;
+}
+.crypto-container-left > p {
+    color: red;
+    margin-left: 10%;
+    margin-bottom: 5%;
+   text-decoration:underline;
+   letter-spacing: 1px;
+   cursor: pointer;
+}
+.crypto-container-right{
+    background-image: radial-gradient( circle farthest-corner at 50% 60%,  #040004 1%, #24383f 30% );
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    overflow: hidden;
+}
+.crypto-container-right div{
+    display: flex;
+    justify-content: space-around;
+    width: 40%;
+    margin-left: 50%;
+    margin-top: 4%;
+}
+.crypto-container-right div button:nth-child(1){
+    border-radius: 10px;
+    padding: 10px 20px;
+   
+    border: 1px solid white;
+    background-color: transparent;
+    outline: none;
+    color: white;
+    font-weight: 500;
+    cursor: pointer;
+}
+.crypto-container-right div button:nth-child(2){
+    border-radius: 10px;
+    padding: 10px 20px;
+    background-color: white;
+    outline: none;
+    color: black;
+    font-weight: 500;
+    border: none;
+    cursor: pointer;
+}
+.selectoptions{
+    width: 100%;
+    display: flex;
+    /* justify-content: space-between; */
+    margin-top: 0%;
+   
+}
+
+.selectoptions select:first-child{
+    margin-left: -120%;
+    outline: none;
+    border: 2px solid white;
+    padding: 15px 20px;
+    background-color: transparent;
+    color: white;
+    border-radius: 12px;
+}
+.selectoptions select:last-child{
+    outline: none;
+    border: 2px solid white;
+    padding: 20px 30px;
+    background-color: transparent;
+    color: white;
+    border-radius: 12px;
+}
+.selectoptions select option{
+    border-radius: 12px;
+    display: block;
+    color: #24383f;
+}
+
+.input-result{
+   display: flex;
+}
+.input-result input{
+    margin-left: -100%;
+    /* border: 2px solid white; */
+    border: none;
+    background-color: transparent;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 12px;
+}
+.input-result input::placeholder{
+    color: white;
+}
+.input-result input::after{
+    border: none;
+}
+.input-result div p{
+    color: white;
+}
+.submit-btn{
+    width: 50%;
+    margin-left: 5%;
+    margin-left: 25%;
+    padding: 20px 30px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(130, 241, 130);
+    font-size: 20px;
+    letter-spacing: 2px;
+    color: white;
+}
+.error{
+    color: red;
+    width: 100%;
+   
+}
